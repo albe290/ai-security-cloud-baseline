@@ -1,0 +1,36 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# AWS credentials / secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials
+config
+.aws/
+
+# Sensitive evidence - do not commit
+evidence/
+evidence/*created-access-key*.json
+evidence/*access-key*.json
+evidence/*access-keys*.json
+
+# Local logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
