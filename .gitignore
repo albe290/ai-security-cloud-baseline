@@ -17,9 +17,9 @@ terraform.tfvars
 *.crt
 *.p12
 *.pfx
-credentials
-config
 .aws/
+.aws/credentials
+.aws/config
 
 # Sensitive evidence - do not commit
 evidence/

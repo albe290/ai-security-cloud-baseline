@@ -60,3 +60,8 @@ module "budgets" {
   logs_kms_key_id  = module.kms.logs_key_id
   budget_limit_usd = var.budget_limit_usd
 }
+module "config" {
+  source               = "./modules/config"
+  account_id           = var.account_id
+  alerts_sns_topic_arn = module.budgets.alerts_topic_arn
+}
