@@ -1,14 +1,4 @@
-Absolutely — replace the full `README.md` with this version.
 
-Open it:
-
-```powershell
-code README.md
-```
-
-Paste everything below:
-
-````markdown
 # AI Security Cloud Baseline
 
 ## Overview
